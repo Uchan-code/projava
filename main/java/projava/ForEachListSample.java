@@ -1,6 +1,7 @@
 package projava;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 // ListのforEachを行おう
 public class ForEachListSample {
@@ -21,6 +22,7 @@ public class ForEachListSample {
 		}
 		
 		// objectにいくつも処理を重ねたい場合はStream APIの使用
+		Stream.of(strages).sorted().forEach(s -> System.out.println(s));
 		
 	}
 }
