@@ -17,3 +17,6 @@
 2022/09/10
 - 12.3 SimpleServer
 - 12.3 SimpleClientの作成
+
+2022/09/14
+- WebClient.javaの作成
